@@ -5,16 +5,20 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import CreateEvent from "./routes/create";
+import CommonRoute from "./routes/common";
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
   {
     path: "/create",
-    element: <CreateEvent />,
+    element: <CommonRoute />,
+  },
+  {
+    path: "/event",
+    element: <CommonRoute />,
   },
 ]);
 
