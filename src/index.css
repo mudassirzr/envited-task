@@ -2,7 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer base {
+  body {
+    @apply bg-body text-secondary font-light; 
+  }
+  a {
+    @apply text-primary
+  }
+  .bg-primary-gradient {
+    @apply bg-gradient-to-r from-primary to-primary-light 
+  }
+  /* ... */
+}
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -1,9 +1,13 @@
+import { Container, Hero, EventHeader, Invite } from "components";
 
 function App() {
   return (
-    <div>
-     Welcome to Envited!  
-    </div>
+    <Container>
+      <Hero />
+      <div className="container">
+
+      </div>
+    </Container>
   );
 }
 
