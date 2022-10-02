@@ -20,7 +20,7 @@ export default function Hero(props) {
           <Button additionalClasses={'hidden lg:block'} fullWidth={true}>🎉 Create my event</Button>
         </div>
       </div>
-      <div className="mb-10 ml-auto mr-auto lg:ml-0 w-1/2 lg:w-2/5 order-last lg:order-first">
+      <div className="mb-10 mx-auto lg:mx-0 w-1/2 lg:w-2/5 order-last lg:order-first">
         <img alt={"event screenshot"} src={"/landing.svg"} />
       </div>
       <Button additionalClasses={'lg:hidden max-w-fit sm:max-w-[50%] sm:w-full mx-auto'}>🎉 Create my event</Button>
