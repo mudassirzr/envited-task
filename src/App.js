@@ -1,4 +1,4 @@
-import { Container, Hero, EventHeader, Invite } from "components";
+import { Container, Hero} from "components";
 
 function App() {
   return (

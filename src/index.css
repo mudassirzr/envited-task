@@ -18,7 +18,19 @@
   .bg-primary-gradient {
     @apply bg-gradient-to-r from-primary to-primary-light;
   }
-  /* ... */
+
+  /* date time picker styling */
+  
+}
+.react-datetime-picker__wrapper {
+  border: 0 !important;
+}
+.react-calendar {
+  @apply rounded-lg p-4 shadow;
+  border: 0 !important;
+}
+.react-calendar__tile--active {
+  background-color: #8456EC !important;
 }
 /* body {
   margin: 0;

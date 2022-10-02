@@ -1,5 +1,5 @@
 import { Button } from "components";
-import { Outlet, Link, useLoaderData } from "react-router-dom";
+import { Link } from "react-router-dom";
 export default function Hero(props) {
   return (
     <div className="lg:flex lg:h-screen lg:items-center lg:justify-between text-center lg:text-right">
@@ -17,7 +17,7 @@ export default function Hero(props) {
           media.
         </p>
         <div className="max-w-[320px] mx-auto lg:mr-0 lg:ml-auto">
-          <Button additionalClasses={"hidden lg:block"} fullWidth={true}>
+          <Button size='lg' additionalClasses={"hidden lg:block"} fullWidth={true}>
             <Link className="text-white" to="/create">🎉 Create my event</Link>
           </Button>
         </div>
