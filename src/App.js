@@ -4,9 +4,6 @@ function App() {
   return (
     <Container>
       <Hero />
-      <div className="container">
-
-      </div>
     </Container>
   );
 }
